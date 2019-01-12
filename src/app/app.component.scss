@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rubik:700i');
+
+
+body {
+    background: #36538b;
+    color:#FFF!important;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+
+.no-padding {
+    padding:0;
+}
+
+.pageloader {
+    background: #36538b;
+}
