@@ -28,8 +28,6 @@
               "src/manifest.json"
             ],
             "styles": [
-              "node_modules/bulma/css/bulma.css",
-              "node_modules/bulma-pageloader/dist/css/bulma-pageloader.min.css",
               "src/styles.scss"
             ],
             "scripts": []
