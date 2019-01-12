@@ -1,0 +1,19 @@
+<nav class="navbar is-transparent is-fixed-top">
+  <div class="navbar-brand">
+    <a class="navbar-item" routerLink="/">
+      Angular Chuck Norris PWA
+    </a>
+    <a role="button" (click)="handleClick()" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="top-menu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+    <div id="top-menu" class="navbar-menu"> 
+      <div class="navbar-end">
+          <a class="navbar-item" routerLink="/all-chuck-movies">
+            All Chuck Movies
+          </a>
+      </div>
+  </div>
+</nav>

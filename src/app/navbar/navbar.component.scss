@@ -1,0 +1,40 @@
+.navbar {
+    background: rgba(0,0,0, 0.35);
+    
+}
+
+.navbar-brand {
+    background: rgba(0,0,0, 0.35);
+}
+
+.navbar-item {
+    color:#FFF;
+    
+
+    &:hover {
+        color:#dedede;
+    }
+}
+
+.navbar-burger {
+    color:#FFF;
+
+    &:hover {
+        color:#dedede;
+    }
+}
+
+.navbar-menu {
+    background: rgba(0,0,0, 0.35);
+    box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
+    padding: 0.5rem 0;
+
+    .navbar-item {
+        color:#FFF;
+    
+        &:hover {
+            background:inherit;
+            color:#dedede;
+        }
+    }
+}

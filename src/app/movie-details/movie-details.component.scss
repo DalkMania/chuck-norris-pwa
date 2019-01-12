@@ -1,0 +1,118 @@
+.is-background {
+    background: #36538b;
+}
+
+.bg-image {
+    background: #36538b;
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+}
+.bg-image img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+}
+
+.hero.is-medium {
+    .hero-body {
+        padding:0;
+    }
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.45);
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100vw; 
+    height: 100vh;
+
+    @media screen and (max-width: 1023px) {
+        position: fixed;
+        overflow: scroll;
+    }
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    height:100vh;
+
+    @media screen and (min-width: 1024px) {
+        .card-image {
+            flex-basis: 20%;
+            padding:0 2rem 0 1rem;
+        }
+    
+        .movie-information {
+            flex-basis: 80%;
+            text-align: center;
+    
+    
+            h2 {
+                font-size: 3rem;
+                line-height: 5rem;
+            }
+    
+            .tag-line {
+                text-align: center;
+                font-style: italic;
+                font-weight: bold;
+                font-size: 1.5rem;
+                padding:0 2rem 2rem 2rem;
+            }
+    
+            .overview {
+                font-size: 1.2rem;
+                padding:2rem 2.5rem;
+            }
+        }
+      }
+
+      @media screen and (max-width: 1023px) {
+          flex-direction: column;
+
+        .card-image {
+            flex-basis: 100%;
+            padding:4rem 0 0;
+        }
+
+        .movie-information {
+            flex-basis: 100%;
+            text-align: center;
+    
+    
+            h2 {
+                font-size: 3rem;
+                line-height: 5rem;
+            }
+    
+            .tag-line {
+                text-align: center;
+                font-style: italic;
+                font-weight: bold;
+                font-size: 1.5rem;
+                padding:0 1rem 1rem 1rem;
+            }
+    
+            .overview {
+                font-size: 1.2rem;
+                padding:2rem 1rem;
+            }
+        }
+
+      }
+
+    
+}
+
+
+ 

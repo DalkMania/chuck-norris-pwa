@@ -1,0 +1,18 @@
+<div *ngIf="loading" class="pageloader is-active"><span class="title">Loading</span></div>
+<section *ngIf="movies" class="container movie-section">
+    <h2 class="has-text-centered is-size-2">All Chuck Movies Ever</h2>
+    <ul class="columns is-multiline">
+        <li class="column is-one-quarter-desktop is-one-third-tablet" *ngFor="let movie of movies">
+            <div class="card card-equal-height no-padding">
+                <div class="card-image">
+                    <figure class="image">
+                        <a routerLink="/details/{{movie.id}}">
+                            <img src="https://image.tmdb.org/t/p/w300_and_h450_bestv2{{ movie.poster_path }}" alt="{{ movie.title }} Poster" />
+                        </a>
+                    </figure>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <img class="logo" src="assets/svg/tmdb-logo.svg" alt="Powered by The MovieDB API">
+</section>
