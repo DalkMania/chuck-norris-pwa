@@ -9,10 +9,10 @@
       "urls": [
         "https://dalkmania.github.io/chuck-norris-pwa/favicon.ico",
         "https://dalkmania.github.io/chuck-norris-pwa/index.html",
-        "https://dalkmania.github.io/chuck-norris-pwa/main.ab51ae546ef3c4eff039.js",
+        "https://dalkmania.github.io/chuck-norris-pwa/main.29a140e4ae7d6f1de345.js",
         "https://dalkmania.github.io/chuck-norris-pwa/polyfills.1ef83d22ada557f4a131.js",
         "https://dalkmania.github.io/chuck-norris-pwa/runtime.ec2944dd8b20ec099bf3.js",
-        "https://dalkmania.github.io/chuck-norris-pwa/styles.78db5919255f7cfc3034.css"
+        "https://dalkmania.github.io/chuck-norris-pwa/styles.e457e88da01203450957.css"
       ],
       "patterns": []
     },
@@ -71,11 +71,11 @@
     "https://dalkmania.github.io/chuck-norris-pwa/assets/images/chuck-norris.jpg": "97d993ebdc9287e2c801d1196fbd300e377a001f",
     "https://dalkmania.github.io/chuck-norris-pwa/assets/svg/tmdb-logo.svg": "4281513cbc9e80e46543d739879a8797b15ed7de",
     "https://dalkmania.github.io/chuck-norris-pwa/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://dalkmania.github.io/chuck-norris-pwa/index.html": "fb923ecf2060720c42e46d5b41f5b75da71fb523",
-    "https://dalkmania.github.io/chuck-norris-pwa/main.ab51ae546ef3c4eff039.js": "79ffabe8949fe5cbad68f00013381cf778509e8b",
+    "https://dalkmania.github.io/chuck-norris-pwa/index.html": "e30375a3e5bfc4380e1d0bd5c58253beb2d4b2ec",
+    "https://dalkmania.github.io/chuck-norris-pwa/main.29a140e4ae7d6f1de345.js": "23ff562b740df72fa2ebf38d8275e0f348001e73",
     "https://dalkmania.github.io/chuck-norris-pwa/polyfills.1ef83d22ada557f4a131.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
     "https://dalkmania.github.io/chuck-norris-pwa/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "https://dalkmania.github.io/chuck-norris-pwa/styles.78db5919255f7cfc3034.css": "9655d6162323b309d54aa445cdadc665bc2c80c3"
+    "https://dalkmania.github.io/chuck-norris-pwa/styles.e457e88da01203450957.css": "09134c1c65b9b6eda0d0967ee5b4dd431b0907dc"
   },
   "navigationUrls": [
     {
