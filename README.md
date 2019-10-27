@@ -1,10 +1,10 @@
 # A Simple Chuck Norris PWA
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.14.
 
 ## About 
 
-This is a simple Angular 7 PWA built for learning purposes. It uses the [Chuck Norris Joke API](https://api.chucknorris.io/), and the [Movie Database API](https://www.themoviedb.org/). 
+This is a simple Angular 8 PWA built for learning purposes. It uses the [Chuck Norris Joke API](https://api.chucknorris.io/), and the [Movie Database API](https://www.themoviedb.org/). 
 
 ## Demo 
 
