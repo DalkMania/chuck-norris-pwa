@@ -122,8 +122,13 @@
               "devServerTarget": "chuck-norris-pwa:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "chuck-norris-pwa"
 }
