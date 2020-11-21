@@ -1,0 +1,25 @@
+<div *ngIf="loading" class="pageloader is-active"><span class="title">Loading</span></div>
+<section *ngIf="!loading" class="hero is-medium">
+    <div class="hero-body">
+        <div *ngIf="movie.backdrop_path" class="bg-image">
+            <img  src="https://image.tmdb.org/t/p/w1280{{ movie.backdrop_path }}" alt="{{ movie.title }} Poster" />
+        </div>
+
+      <div class="overlay">
+        <div class="content-container container">
+            <div class="card-image">
+                <figure class="image">
+                    <img src="https://image.tmdb.org/t/p/w300_and_h450_bestv2{{ movie.poster_path }}" alt="{{ movie.title }} Poster" />
+                </figure>
+            </div>
+            <div class="movie-information">
+                <h2>{{ movie.title}} ({{ movie.release_date.substring(0, 4) }})</h2>
+                <p *ngIf="movie.tagline" class="tag-line">{{ movie.tagline }}</p>
+                <p *ngIf="movie.overview" class="overview">{{ movie.overview }}</p>
+            </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>

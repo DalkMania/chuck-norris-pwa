@@ -1,0 +1,21 @@
+.card-equal-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.movie-section {
+ padding:0 1rem;
+}
+
+h2 {
+ padding:4rem 0 2rem;
+}
+
+img.logo {
+ display: block;
+ width:150px;
+ height:auto;
+ margin:0 auto;
+ padding:1rem 0;
+}

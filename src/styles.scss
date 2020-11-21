@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rubik:700i');
+
+@import '../node_modules/bulma/css/bulma.css';
+@import "../node_modules/bulma-pageloader/dist/css/bulma-pageloader.min.css";
+
+body {
+    background: #36538b;
+    color:#FFF!important;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+
+.no-padding {
+    padding:0;
+}
+
+.pageloader {
+    background: #36538b;
+}

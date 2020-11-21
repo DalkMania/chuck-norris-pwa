@@ -1,0 +1,11 @@
+<div *ngIf="loading" class="pageloader is-active"><span class="title">Loading</span></div>
+<section *ngIf="!loading"class="hero is-fullheight">
+    <div class="hero-body">
+        <div class="container">
+            <div *ngIf="joke" class="chuck-joke">
+                <img src="assets/images/chuck-norris.jpg" alt="Little Chuck">
+                <h2 *ngIf="joke">{{ joke.value }}</h2>
+            </div>
+        </div>
+    </div>
+</section>
